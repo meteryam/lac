@@ -1,25 +1,2 @@
 exclude_path	/mnt/usb/.Trashes
-#exclude_name	*.js
-#exclude_name	*.php
-#exclude_name	*.aspx
-#exclude_name	*.indexDirectory
-#exclude_name	*.shadowIndexDirectory
-#exclude_name	*.shadowIndexCompactDirectory
 #include         /mnt/usb/taxes
-#include         /mnt/usb/wedding
-#include         /mnt/usb/linda/linda-backup
-#include         /mnt/usb/jessica/jessica_backup
-#include          /mnt/usb/jessica/roms
-include         /mnt/usb/jessica/kiss
-#include         /mnt/usb/jessica/audio/speeches
-#include         /mnt/usb/jessica/projects
-#include         /mnt/usb/jessica/people
-#include         /mnt/usb/jessica/understanding
-#include         /mnt/usb/jessica/archives_jessica
-#include         /mnt/usb/linda/archives-linda
-#include         /mnt/usb/linda/linda-media
-#include         /mnt/usb/jessica/movies
-#include         /mnt/usb/jessica/sex/porn/full_movies
-#include         /mnt/usb/jessica/sex/sex_info/girls_guide_to_21st_century_sex
-
-#include		/mnt/usb/jessica/jessica_backup/working/website/meteryam.github.io
