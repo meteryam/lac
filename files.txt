@@ -1,2 +1,2 @@
 exclude_path	/mnt/usb/.Trashes
-#include         /mnt/usb/taxes
+include         /mnt/usb/myfiles

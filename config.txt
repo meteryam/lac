@@ -4,7 +4,7 @@ restore_to		/tmp/restored
 #bandwidth		18432
 bandwidth		40000
 min_bytes		1
-noleaf			true
+noleaf			false
 exclude_hidden		true
 exclude_type		inode/x-empty
 exclude_type		application/x-coredump
