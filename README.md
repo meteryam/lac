@@ -63,7 +63,8 @@ lacf.bash file
 	# tells you the file type to specify in files.txt
 
 fix_files.bash /path
-	# renames all directories and names with commas and single quotes in the supplied path; could be destructive
+	# renames all directories and names with commas and single quotes in
+	# the supplied path; could be destructive
 
 lacr:
 
