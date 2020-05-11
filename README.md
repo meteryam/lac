@@ -30,7 +30,7 @@ future plans:
 
 
 utilities and syntax:
-
+```
 lac:
 - lac.bash -f	# full backup
 - lac.bash -s source -t target	# can optionally specify source and target options via command line
@@ -66,7 +66,7 @@ config.txt:
 
 backup_to		/path/to/source
 restore_to		/path/to/target
-
+```
 Note that "backup_to" serves as the default target for backups and the default source for restores. This is intentional.
 
 
