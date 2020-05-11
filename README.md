@@ -2,7 +2,7 @@
 
 lac version 0.80a
 
-lac is a backup script that uses rsync to copy files from one directory to another.  The motivating use case is copying files from a local source to a remote destination that has been mounted as a network volume.  It's designed to run in CentOS, but with varying levels of effortit could be adapted to run in other Unix-like operating systems.
+lac is a backup script that uses rsync to copy files from one directory to another.  The motivating use case is copying files from a local source to a remote destination that has been mounted as a network volume.  It's designed to run in CentOS, but with varying levels of effort it could be adapted to run in other Unix-like operating systems.
 
 status:
 
