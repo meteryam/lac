@@ -32,39 +32,40 @@ future plans:
 utilities and syntax:
 
 lac:
-    lac.bash -f	# full backup
-    lac.bash -s source -t target	# can optionally specify source and target options via command line
+- lac.bash -f	# full backup
+- lac.bash -s source -t target	# can optionally specify source and target options via command line
 
-files.txt
-    exclude_name	/path/to/file
-    exclude_path	/path/to/directory
-    exclude_type	string
-    include		/path/to/something	
+files.txt:
+
+exclude_name	/path/to/file
+exclude_path	/path/to/directory
+exclude_type	string
+include		/path/to/something	
 	
 config.txt
-    backup_to		/path/to/target
-    bandwidth		integer	# measured in kbps
-    compress_min_kb		integer
-    compress_max_kb		integer
-    compress_type		string
-    exclude_hidden		true/false # whether to exclude hidden files
-    min_bytes		integer	# minimum bytes to back up
-    noleaf			true/false # sets find's noleaf option for search optimization; see man find
+
+backup_to		/path/to/target
+bandwidth		integer	# measured in kbps
+compress_min_kb		integer
+compress_max_kb		integer
+compress_type		string
+exclude_hidden		true/false # whether to exclude hidden files
+min_bytes		integer	# minimum bytes to back up
+noleaf			true/false # sets find's noleaf option for search optimization; see man find
 	
 
+lacf.bash file	# tells you the file type to specify in files.txt
 
-lacf:
-    lacf.bash file	# tells you the file type to specify in files.txt
-
-fix_files:
-    fix_files.bash /path	# renames all directories and names with commas and single quotes in the supplied path; could be destructive
+fix_files.bash /path	# renames all directories and names with commas and single quotes in the supplied path; could be destructive
 
 lacr:
-    lacr.bash -s source -t target -r restore.date # can optionally specify source and target options via command line
 
-config.txt
-    backup_to		/path/to/source
-    restore_to		/path/to/target
+- lacr.bash -s source -t target -r restore.date # can optionally specify source and target options via command line
+
+config.txt:
+
+backup_to		/path/to/source
+restore_to		/path/to/target
 
 Note that "backup_to" serves as the default target for backups and the default source for restores. This is intentional.
 
