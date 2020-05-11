@@ -4,6 +4,9 @@ lac version 0.80a
 
 lac is a backup script that uses rsync to copy files from one directory to another.  The motivating use case is copying files from a local source to a remote destination that has been mounted as a network volume.  It's designed to run in CentOS, but with varying levels of effort it could be adapted to run in other Unix-like operating systems.
 
+I wrote this script to back up my personal files from a FAT32-formatted volume hosted on a CentOS server to the cloud.  That drove many of its design decisions, and it also means that it'll never be "production ready", and as such is unsupported. Use/modify at your own risk.
+
+
 status:
 
 lac is currently in alpha development.  This means that its feature set is still in flux, and errors abound.  Use it at your own risk.
